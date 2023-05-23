@@ -5,6 +5,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.actress.newactress.NewActressFragment">
 
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.rodriguezvillalta00101519.parcial2correctopdm.ui.actress.viewmodel.ActressViewModel" />
+    </data>
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -43,6 +49,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/name_edit_text"
+                    android:text="@={viewmodel.name}"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
@@ -65,6 +72,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/category_edit_text"
+                    android:text="@={viewmodel.age}"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
@@ -87,6 +95,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/description_edit_text"
+                    android:text="@={viewmodel.description}"
                     android:textColor="@color/white"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -96,6 +105,7 @@
 
             <Button
                 android:id="@+id/submit_button"
+                android:onClick="@{() -> viewmodel.createActress()}"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/medium_gap"
