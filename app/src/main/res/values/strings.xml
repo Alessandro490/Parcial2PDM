@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Parcial2CorrectoPDM</string>
+    <string name="submitButtonText">Submit</string>
+    <string name="billboard_title_text">List of voice actors</string>
+    <string name="name_actress_billboard_text">Mario castaneda</string>
+    <string name="age_billboard_text">50 años</string>
+    <string name="add_new_voice_actor_tittle">add new voice actor </string>
+    <string name="add_name_text">Add name</string>
+    <string name="add_age_text">Add age</string>
+    <string name="add_description_text">Add description</string>
+    <string name="actress_name_text">Eduardo Lara</string>
+    <string name="description_actress_text">Un actor de voz conocido por darle su voz a Krillin de Dragon ball</string>
 </resources>

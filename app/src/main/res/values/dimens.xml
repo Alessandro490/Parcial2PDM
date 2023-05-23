@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_gap">32dp</dimen>
+    <dimen name="default_gap">8dp</dimen>
+    <dimen name="small_gap">8dp</dimen>
+    <dimen name="medium_gap">16dp</dimen>
+    <dimen name="billboard_width_cardview">350dp</dimen>
+    <dimen name="billboard_height_cardview">75dp</dimen>
+    <dimen name="extra_large_text_gap">42sp</dimen>
+    <dimen name="Large_gap">120dp</dimen>
+    <dimen name="extra_large_gap">300dp</dimen>
+    <dimen name="medium_text_gap">20sp</dimen>
+    <dimen name="medium_large_text_gap">24sp</dimen>
+    <dimen name="large_text_gap">30sp</dimen>
+    <dimen name="no_gap">0dp</dimen>
+    <dimen name="item_view_gap"> 125dp</dimen>
+</resources>

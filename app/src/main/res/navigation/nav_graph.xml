@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/billboardFragment">
+
+    <fragment
+        android:id="@+id/billboardFragment"
+        android:name="com.rodriguezvillalta00101519.parcial2correctopdm.BillboardFragment"
+        android:label="fragment_billboard"
+        tools:layout="@layout/fragment_billboard" >
+        <action
+            android:id="@+id/action_billboardFragment_to_actressFragment"
+            app:destination="@id/actressFragment" />
+        <action
+            android:id="@+id/action_billboardFragment_to_newActressFragment"
+            app:destination="@id/newActressFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newActressFragment"
+        android:name="com.rodriguezvillalta00101519.parcial2correctopdm.NewActressFragment"
+        android:label="fragment_new_actress"
+        tools:layout="@layout/fragment_new_actress" />
+    <fragment
+        android:id="@+id/actressFragment"
+        android:name="com.rodriguezvillalta00101519.parcial2correctopdm.ActressFragment"
+        android:label="fragment_actress"
+        tools:layout="@layout/fragment_actress" />
+</navigation>
