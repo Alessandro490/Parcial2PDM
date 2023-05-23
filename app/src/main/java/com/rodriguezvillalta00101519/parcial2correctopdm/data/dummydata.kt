@@ -11,7 +11,7 @@ val name2 = "Poco"
 val age2 = "X3"
 val description2 = "A new quality-price phnoe"
 
-val actress= mutableListOf(
+val actresses= mutableListOf(
     ActressModel(name, age, description),
     ActressModel(name2, age2, description2)
 )
