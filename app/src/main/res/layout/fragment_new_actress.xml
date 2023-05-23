@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".NewActressFragment">
+    tools:context=".ui.actress.newactress.NewActressFragment">
 
     <FrameLayout
         android:layout_width="match_parent"

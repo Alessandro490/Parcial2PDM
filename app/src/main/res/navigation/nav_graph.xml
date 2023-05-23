@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/billboardFragment"
-        android:name="com.rodriguezvillalta00101519.parcial2correctopdm.BillboardFragment"
+        android:name="com.rodriguezvillalta00101519.parcial2correctopdm.ui.actress.billboard.BillboardFragment"
         android:label="fragment_billboard"
         tools:layout="@layout/fragment_billboard" >
         <action
@@ -19,12 +19,12 @@
     </fragment>
     <fragment
         android:id="@+id/newActressFragment"
-        android:name="com.rodriguezvillalta00101519.parcial2correctopdm.NewActressFragment"
+        android:name="com.rodriguezvillalta00101519.parcial2correctopdm.ui.actress.newactress.NewActressFragment"
         android:label="fragment_new_actress"
         tools:layout="@layout/fragment_new_actress" />
     <fragment
         android:id="@+id/actressFragment"
-        android:name="com.rodriguezvillalta00101519.parcial2correctopdm.ActressFragment"
+        android:name="com.rodriguezvillalta00101519.parcial2correctopdm.ui.actress.ActressFragment"
         android:label="fragment_actress"
         tools:layout="@layout/fragment_actress" />
 </navigation>
